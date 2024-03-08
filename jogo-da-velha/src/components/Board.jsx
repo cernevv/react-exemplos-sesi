@@ -26,7 +26,7 @@ const Board = () => {
         Status:{" "}
         <br/>
         {winner ? (
-          <p className="winner">O vencedor é: {winner}!</p>
+          <p className="winner">O vencedor é: {xIsNext ? "Laura" : "Kaue"}!</p>
         ) : isBoardFull ? (
           <p className="draw">Deu velha!</p>
         ) : (
